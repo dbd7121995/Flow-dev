@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.1-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1497341793</meta>
+    <meta key="export_datetime"><![CDATA[2017-06-13T15:16:33+07:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[172.22.255.251:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50628</meta>
+    <meta key="export_version">2</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name"><![CDATA[Supplier chỉnh sửa thông tin PO Draft 2017-06-08 11:56:15]]></meta>
+    <meta key="uid">260912018592d3b1f6eed06058509693</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>1667165105938c957347c41041428519</act_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <pro_uid>676110555592d3b1f74ad93042600850</pro_uid>
+        <act_name><![CDATA[Nhận và chỉnh sửa]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>5352709395938c95734c458001638827</bou_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>1667165105938c957347c41041428519</element_uid>
+        <bou_element>344539572592d3b9b9a96a5065622049</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>224</bou_x>
+        <bou_y>26</bou_y>
+        <bou_width>161</bou_width>
+        <bou_height>32</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>171765080592d3b73a55a91024929221</bou_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>455957550592d3b73a4fc47023010815</element_uid>
+        <bou_element>633728096592d3b1f73eed8082538697</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>36</bou_x>
+        <bou_y>39</bou_y>
+        <bou_width>1072</bou_width>
+        <bou_height>311</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>205945102593e2a26ba38f7079833673</bou_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>409058097593e2a26b9fcd2015378708</element_uid>
+        <bou_element>344539572592d3b9b9a96a5065622049</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>702</bou_x>
+        <bou_y>26</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>313956231592d3bc3aeb161015790377</bou_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>623308974592d3bc3ae7c08051925924</element_uid>
+        <bou_element>344539572592d3b9b9a96a5065622049</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>82</bou_x>
+        <bou_y>26</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>462751467592d3df3b46933073337008</bou_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>908023744592d3df3b42929025888736</element_uid>
+        <bou_element>862528833592d3b9b9f2118080337365</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>840</bou_x>
+        <bou_y>77</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>463239786592d3c3bb5a423063073100</bou_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>290871315592d3c3bb56543064099314</element_uid>
+        <bou_element>344539572592d3b9b9a96a5065622049</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>445</bou_x>
+        <bou_y>22</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>509441273593a24b92f48a2020715267</bou_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>757719423593a24b92f0b00040896680</element_uid>
+        <bou_element>862528833592d3b9b9f2118080337365</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>449</bou_x>
+        <bou_y>51</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>5352709395938c95734c458001638827</bou_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>1667165105938c957347c41041428519</element_uid>
+        <bou_element>344539572592d3b9b9a96a5065622049</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>224</bou_x>
+        <bou_y>26</bou_y>
+        <bou_width>161</bou_width>
+        <bou_height>32</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>605765715592d3b9b9f48c4074372827</bou_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>862528833592d3b9b9f2118080337365</element_uid>
+        <bou_element>455957550592d3b73a4fc47023010815</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>119</bou_y>
+        <bou_width>1030</bou_width>
+        <bou_height>189</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>876624471592d3b9b9ad674017182076</bou_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>344539572592d3b9b9a96a5065622049</element_uid>
+        <bou_element>455957550592d3b73a4fc47023010815</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>1031</bou_width>
+        <bou_height>122</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_name><![CDATA[Supplier chỉnh sửa thông tin PO Draft 2017-06-08 11:56:15]]></dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>409058097593e2a26b9fcd2015378708</evn_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <pro_uid>676110555592d3b1f74ad93042600850</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>INTERMEDIATE</evn_type>
+        <evn_marker>EMAIL</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>205945102593e2a26ba38f7079833673</bou_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>409058097593e2a26b9fcd2015378708</element_uid>
+        <bou_element>344539572592d3b9b9a96a5065622049</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>702</bou_x>
+        <bou_y>26</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>623308974592d3bc3ae7c08051925924</evn_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <pro_uid>676110555592d3b1f74ad93042600850</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>313956231592d3bc3aeb161015790377</bou_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>623308974592d3bc3ae7c08051925924</element_uid>
+        <bou_element>344539572592d3b9b9a96a5065622049</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>82</bou_x>
+        <bou_y>26</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>757719423593a24b92f0b00040896680</evn_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <pro_uid>676110555592d3b1f74ad93042600850</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>INTERMEDIATE</evn_type>
+        <evn_marker>EMAIL</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>509441273593a24b92f48a2020715267</bou_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>757719423593a24b92f0b00040896680</element_uid>
+        <bou_element>862528833592d3b9b9f2118080337365</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>449</bou_x>
+        <bou_y>51</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>908023744592d3df3b42929025888736</evn_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <pro_uid>676110555592d3b1f74ad93042600850</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>462751467592d3df3b46933073337008</bou_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>908023744592d3df3b42929025888736</element_uid>
+        <bou_element>862528833592d3b9b9f2118080337365</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>840</bou_x>
+        <bou_y>77</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>124125632593e2a3d0abe82048682549</flo_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>409058097593e2a26b9fcd2015378708</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>908023744592d3df3b42929025888736</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>813</flo_x1>
+        <flo_y1>84</flo_y1>
+        <flo_x2>935</flo_x2>
+        <flo_y2>239</flo_y2>
+        <flo_state><![CDATA[[{"x":813,"y":84},{"x":935,"y":84},{"x":935,"y":239}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>3635601715938d8f03a6c85074063909</flo_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name>No</flo_name>
+        <flo_element_origin>290871315592d3c3bb56543064099314</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>409058097593e2a26b9fcd2015378708</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@po_confirmed==0]]></flo_condition>
+        <flo_x1>564</flo_x1>
+        <flo_y1>84</flo_y1>
+        <flo_x2>780</flo_x2>
+        <flo_y2>84</flo_y2>
+        <flo_state><![CDATA[[{"x":564,"y":84},{"x":780,"y":84}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>698292078593a6aecdd99f5043692046</flo_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>623308974592d3bc3ae7c08051925924</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>1667165105938c957347c41041428519</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>193</flo_x1>
+        <flo_y1>84</flo_y1>
+        <flo_x2>302</flo_x2>
+        <flo_y2>84</flo_y2>
+        <flo_state><![CDATA[[{"x":193,"y":84},{"x":302,"y":84}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>834155638593a5d8b5014a9048353971</flo_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>1667165105938c957347c41041428519</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>290871315592d3c3bb56543064099314</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>463</flo_x1>
+        <flo_y1>84</flo_y1>
+        <flo_x2>523</flo_x2>
+        <flo_y2>84</flo_y2>
+        <flo_state><![CDATA[[{"x":463,"y":84},{"x":523,"y":84}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>992936422593a249138ace7064326316</flo_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>757719423593a24b92f0b00040896680</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>908023744592d3df3b42929025888736</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>544</flo_x1>
+        <flo_y1>246</flo_y1>
+        <flo_x2>935</flo_x2>
+        <flo_y2>272</flo_y2>
+        <flo_state><![CDATA[[{"x":544,"y":246},{"x":544,"y":292},{"x":935,"y":292},{"x":935,"y":272}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>648362196593a61b88e2d49061960971</flo_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>1667165105938c957347c41041428519</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>290871315592d3c3bb56543064099314</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>463</flo_x1>
+        <flo_y1>84</flo_y1>
+        <flo_x2>523</flo_x2>
+        <flo_y2>84</flo_y2>
+        <flo_state><![CDATA[[{"x":463,"y":84},{"x":523,"y":84}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+      <record>
+        <flo_uid>888671484593a22892f77f8026875551</flo_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name>Yes</flo_name>
+        <flo_element_origin>290871315592d3c3bb56543064099314</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>757719423593a24b92f0b00040896680</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@po_confirmed==1]]></flo_condition>
+        <flo_x1>544</flo_x1>
+        <flo_y1>104</flo_y1>
+        <flo_x2>544</flo_x2>
+        <flo_y2>213</flo_y2>
+        <flo_state><![CDATA[[{"x":544,"y":104},{"x":544,"y":213}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY">
+      <record>
+        <gat_uid>290871315592d3c3bb56543064099314</gat_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <pro_uid>676110555592d3b1f74ad93042600850</pro_uid>
+        <gat_name>NCC Confirm PO</gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>463239786592d3c3bb5a423063073100</bou_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>290871315592d3c3bb56543064099314</element_uid>
+        <bou_element>344539572592d3b9b9a96a5065622049</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>445</bou_x>
+        <bou_y>22</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="LANE">
+      <record>
+        <lan_uid>344539572592d3b9b9a96a5065622049</lan_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <lns_uid>455957550592d3b73a4fc47023010815</lns_uid>
+        <lan_name>Suppliers</lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>876624471592d3b9b9ad674017182076</bou_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>344539572592d3b9b9a96a5065622049</element_uid>
+        <bou_element>455957550592d3b73a4fc47023010815</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>1031</bou_width>
+        <bou_height>122</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <lan_uid>862528833592d3b9b9f2118080337365</lan_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <lns_uid>455957550592d3b73a4fc47023010815</lns_uid>
+        <lan_name>ERP</lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>605765715592d3b9b9f48c4074372827</bou_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>862528833592d3b9b9f2118080337365</element_uid>
+        <bou_element>455957550592d3b73a4fc47023010815</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>119</bou_y>
+        <bou_width>1030</bou_width>
+        <bou_height>189</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="LANESET">
+      <record>
+        <lns_uid>455957550592d3b73a4fc47023010815</lns_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <pro_uid>676110555592d3b1f74ad93042600850</pro_uid>
+        <lns_name><![CDATA[Quy trình Suppliers duyệt PO]]></lns_name>
+        <lns_parent_lane></lns_parent_lane>
+        <lns_is_horizontal>1</lns_is_horizontal>
+        <lns_state></lns_state>
+        <bou_uid>171765080592d3b73a55a91024929221</bou_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <element_uid>455957550592d3b73a4fc47023010815</element_uid>
+        <bou_element>633728096592d3b1f73eed8082538697</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>36</bou_x>
+        <bou_y>39</bou_y>
+        <bou_width>1072</bou_width>
+        <bou_height>311</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>676110555592d3b1f74ad93042600850</pro_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <dia_uid>633728096592d3b1f73eed8082538697</dia_uid>
+        <pro_name><![CDATA[Supplier chỉnh sửa thông tin PO Draft 2017-06-08 11:56:15]]></pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <prj_name><![CDATA[Supplier chỉnh sửa thông tin PO Draft 2017-06-08 11:56:15]]></prj_name>
+        <prj_description><![CDATA[Hỗ trợ suppliers chỉnh sửa thông tin trong PO khi PO Draft được tạo ra]]></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2017-05-30 05:27:59]]></prj_create_date>
+        <prj_update_date><![CDATA[2017-06-13 15:16:17]]></prj_update_date>
+        <prj_author>67398892158f5c8bf86c345097876548</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <pro_title><![CDATA[Supplier chỉnh sửa thông tin PO Draft 2017-06-08 11:56:15]]></pro_title>
+        <pro_description><![CDATA[Hỗ trợ suppliers chỉnh sửa thông tin trong PO khi PO Draft được tạo ra]]></pro_description>
+        <pro_parent>260912018592d3b1f6eed06058509693</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2017-06-13 15:16:17]]></pro_update_date>
+        <pro_create_date><![CDATA[2017-06-08 11:56:16]]></pro_create_date>
+        <pro_create_user>67398892158f5c8bf86c345097876548</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>1</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tas_uid>itee-4923593e2a3d13ad36003575018</tas_uid>
+        <tas_title>INTERMEDIATE-THROW-EMAIL-EVENT</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>INTERMEDIATE-THROW-EMAIL-EVENT</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned></tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>812</tas_posx>
+        <tas_posy>83</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+      </record>
+      <record>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tas_uid>itee-7486593a24b93d55e5012025841</tas_uid>
+        <tas_title>INTERMEDIATE-THROW-EMAIL-EVENT</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>INTERMEDIATE-THROW-EMAIL-EVENT</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned></tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>635</tas_posx>
+        <tas_posy>221</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+      </record>
+      <record>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tas_uid>1667165105938c957347c41041428519</tas_uid>
+        <tas_title><![CDATA[Nhận và chỉnh sửa]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message><![CDATA[Hi @@USR_USERNAME, bạn nhận được 1 đơn đặt hàng từ Tiki]]></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message><![CDATA[@=app_link]]></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day>1</tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>MANUAL</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>TRUE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>224</tas_posx>
+        <tas_posy>26</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>1</tas_selfservice_timeout>
+        <tas_selfservice_time>1</tas_selfservice_time>
+        <tas_selfservice_time_unit>MINUTES</tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid>5777455715937d26baa2b59075001030</tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>ONCE</tas_selfservice_execution>
+        <tas_not_email_from_format>1</tas_not_email_from_format>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>372143135593f9f51c982a2029758220</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tas_uid>itee-7486593a24b93d55e5012025841</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>848096914593f9f51c884c1022391361</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tas_uid>1667165105938c957347c41041428519</tas_uid>
+        <rou_next_task>itee-7486593a24b93d55e5012025841</rou_next_task>
+        <rou_case>2</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@po_confirmed==1]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>903295142593f9f51c75f28087663612</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tas_uid>itee-4923593e2a3d13ad36003575018</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>925629353593f9f51c62522040506705</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tas_uid>1667165105938c957347c41041428519</tas_uid>
+        <rou_next_task>itee-4923593e2a3d13ad36003575018</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@po_confirmed==0]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs">
+      <record>
+        <out_doc_uid>442408384593d2f25dcf5f5059916090</out_doc_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <out_doc_report_generator>TCPDF</out_doc_report_generator>
+        <out_doc_landscape>0</out_doc_landscape>
+        <out_doc_media>A4</out_doc_media>
+        <out_doc_left_margin>20</out_doc_left_margin>
+        <out_doc_right_margin>20</out_doc_right_margin>
+        <out_doc_top_margin>20</out_doc_top_margin>
+        <out_doc_bottom_margin>20</out_doc_bottom_margin>
+        <out_doc_generate>DOC</out_doc_generate>
+        <out_doc_type>HTML</out_doc_type>
+        <out_doc_current_revision></out_doc_current_revision>
+        <out_doc_field_mapping></out_doc_field_mapping>
+        <out_doc_versioning>1</out_doc_versioning>
+        <out_doc_destination_path></out_doc_destination_path>
+        <out_doc_tags></out_doc_tags>
+        <out_doc_pdf_security_enabled>0</out_doc_pdf_security_enabled>
+        <out_doc_pdf_security_open_password></out_doc_pdf_security_open_password>
+        <out_doc_pdf_security_owner_password></out_doc_pdf_security_owner_password>
+        <out_doc_pdf_security_permissions></out_doc_pdf_security_permissions>
+        <out_doc_open_type>1</out_doc_open_type>
+        <out_doc_title>PO Confirmed</out_doc_title>
+        <out_doc_description><![CDATA[PO đã được NCC duyệt từ workflow Process Maker]]></out_doc_description>
+        <out_doc_filename><![CDATA[@=po_name]]></out_doc_filename>
+        <out_doc_template></out_doc_template>
+      </record>
+    </table>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>2174022795938ce574c05e6002322783</dyn_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[260912018592d3b1f6eed06058509693/2174022795938ce574c05e6002322783]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Xác nhận đơn đặt hàng","description":"Nhà Cung Cấp xác nhận đơn đặt hàng của Tiki","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"2174022795938ce574c05e6002322783","name":"Xác nhận đơn đặt hàng","description":"Nhà Cung Cấp xác nhận đơn đặt hàng của Tiki","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"Xác nhận đơn đặt hàng","colSpan":12}],[{"type":"text","variable":"po_name","var_uid":"387271503592d4477840c26045393591","dataType":"string","protectedValue":false,"id":"po_name","name":"po_name","label":"Mã đơn đặt hàng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_name","colSpan":6},{"type":"text","variable":"po_tiki_partner","var_uid":"4194592495937d0779d4fb5092233911","dataType":"string","protectedValue":false,"id":"po_tiki_partner","name":"po_tiki_partner","label":"Tên Nhà Cung Cấp","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_tiki_partner","colSpan":6}],[{"type":"text","variable":"po_amount_total","var_uid":"331020408592d4bdf750445042230733","dataType":"float","protectedValue":false,"id":"po_amount_total","name":"po_amount_total","label":"Tổng giá trị","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_amount_total","colSpan":6},{"type":"dropdown","variable":"po_tiki_category_id","var_uid":"136796594592d4b74163291088830525","dataType":"integer","protectedValue":false,"id":"po_tiki_category_id","name":"po_tiki_category_id","label":"Danh mục sản phẩm","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"SELECT id, name FROM product_category;","dataVariable":"","options":[],"var_name":"po_tiki_category_id","colSpan":6}],[{"type":"text","variable":"po_tiki_receiver","var_uid":"511607581592d4ad233e272035108232","dataType":"string","protectedValue":false,"id":"po_tiki_receiver","name":"po_tiki_receiver","label":"Người nhận hàng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_tiki_receiver","colSpan":6},{"type":"text","variable":"po_tiki_phone","var_uid":"695996932592d4addd7b6e3050138416","dataType":"string","protectedValue":false,"id":"po_tiki_phone","name":"po_tiki_phone","label":"Số điện thoại","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_tiki_phone","colSpan":6}],[{"type":"text","variable":"po_tiki_contact_address","var_uid":"931079027592d4b4fe7a6d7013243798","dataType":"string","protectedValue":false,"id":"po_tiki_contact_address","name":"po_tiki_contact_address","label":"Địa chỉ nhận hàng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_tiki_contact_address","colSpan":12}],[{"type":"grid","variable":"po_line","var_uid":"828080585592d579a5deab7048074700","dataType":"grid","protectedValue":false,"id":"po_line","name":"po_line","label":"Thông tin đặt hàng","hint":"","required":false,"columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_product_name","name":"po_line_product_name","label":"Tên sản phẩm","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"40","width":100,"title":"Tên sản phẩm"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_sku","name":"po_line_sku","label":"SKU","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"20","width":100,"title":"SKU"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_mincode","name":"po_line_mincode","label":"Mincode","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"Select tb.id, pp.default_code\nFROM tiki_barcode tb\nLEFT JOIN product_product pp ON pp.id = tb.product_id\nwhere pp.default_code = '8936049885853'","dataVariable":"","columnWidth":"10","width":100,"title":"Mincode"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_unit_price","name":"po_line_unit_price","label":"Giá","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"10","width":100,"title":"Giá"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_product_qty","name":"po_line_product_qty","label":"Số lượng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"10","width":100,"title":"Số lượng"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_discount","name":"po_line_discount","label":"Phần trăm giảm giá","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"20","width":100,"title":"Phần trăm giảm giá"}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":true,"title":"Thông tin đặt hàng","colSpan":12}],[{"type":"textarea","variable":"supplier_note","var_uid":"438130598592e6820b71dd8025720879","dataType":"string","protectedValue":false,"id":"supplier_note","name":"supplier_note","label":"Ghi chú của NCC","defaultValue":"","placeholder":"","hint":"","required":false,"validate":"","validateMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","rows":"5","var_name":"supplier_note","colSpan":6},{"colSpan":3},{"colSpan":3}],[{"type":"radio","variable":"po_confirmed","var_uid":"686554276592e67bfa36365037785953","dataType":"boolean","protectedValue":false,"id":"po_confirmed","name":"po_confirmed","label":"Xác nhận Đơn Đặt Hàng","defaultValue":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"1","label":"Yes"},{"value":"0","label":"No"}],"var_name":"po_confirmed","colSpan":6},{"colSpan":3},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Xác nhận","colSpan":3}]],"variables":[{"var_uid":"387271503592d4477840c26045393591","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_name","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"387271503592d4477840c26045393591","var_name_old":"po_name","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"4194592495937d0779d4fb5092233911","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_partner","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4194592495937d0779d4fb5092233911","var_name_old":"po_tiki_partner","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"331020408592d4bdf750445042230733","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_amount_total","var_field_type":"float","var_field_size":10,"var_label":"float","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"331020408592d4bdf750445042230733","var_name_old":"po_amount_total","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"136796594592d4b74163291088830525","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_category_id","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"SELECT id, name FROM product_category;","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"136796594592d4b74163291088830525","var_name_old":"po_tiki_category_id","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"511607581592d4ad233e272035108232","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_receiver","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"511607581592d4ad233e272035108232","var_name_old":"po_tiki_receiver","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"695996932592d4addd7b6e3050138416","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_phone","var_field_type":"string","var_field_size":10,"var_label":"integer","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"695996932592d4addd7b6e3050138416","var_name_old":"po_tiki_phone","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"931079027592d4b4fe7a6d7013243798","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_contact_address","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"931079027592d4b4fe7a6d7013243798","var_name_old":"po_tiki_contact_address","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"438130598592e6820b71dd8025720879","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"supplier_note","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"438130598592e6820b71dd8025720879","var_name_old":"supplier_note","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"686554276592e67bfa36365037785953","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_confirmed","var_field_type":"boolean","var_field_size":10,"var_label":"boolean","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"1","label":"Yes"},{"value":"0","label":"No"}],"inp_doc_uid":"","var_uid_old":"686554276592e67bfa36365037785953","var_name_old":"po_confirmed","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-06-12 20:36:42]]></dyn_update_date>
+        <dyn_title><![CDATA[Xác nhận đơn đặt hàng]]></dyn_title>
+        <dyn_description><![CDATA[Nhà Cung Cấp xác nhận đơn đặt hàng của Tiki]]></dyn_description>
+      </record>
+      <record>
+        <dyn_uid>600742783592d54de0f0508022740208</dyn_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[260912018592d3b1f6eed06058509693/600742783592d54de0f0508022740208]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Th\u00f4ng tin PO","description":"Th\u00f4ng tin c\u1ee7a 1 PO draft c\u1ea7n supplier confirm","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"600742783592d54de0f0508022740208","name":"Th\u00f4ng tin PO","description":"Th\u00f4ng tin c\u1ee7a 1 PO draft c\u1ea7n supplier confirm","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"T\u1ea1o \u0111\u01a1n \u0111\u1eb7t h\u00e0ng\n","colSpan":12}],[{"type":"text","variable":"po_name","var_uid":"387271503592d4477840c26045393591","dataType":"string","protectedValue":false,"id":"po_name","name":"po_name","label":"M\u00e3 \u0111\u01a1n \u0111\u1eb7t h\u00e0ng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_name","colSpan":6},{"type":"text","variable":"po_tiki_partner","var_uid":"4194592495937d0779d4fb5092233911","dataType":"string","protectedValue":false,"id":"po_tiki_partner","name":"po_tiki_partner","label":"T\u00ean Nh\u00e0 Cung C\u1ea5p","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_tiki_partner","colSpan":6}],[{"type":"text","variable":"po_amount_total","var_uid":"331020408592d4bdf750445042230733","dataType":"float","protectedValue":false,"id":"po_amount_total","name":"po_amount_total","label":"T\u1ed5ng gi\u00e1 tr\u1ecb","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_amount_total","colSpan":6},{"type":"dropdown","variable":"po_tiki_category_id","var_uid":"136796594592d4b74163291088830525","dataType":"integer","protectedValue":false,"id":"po_tiki_category_id","name":"po_tiki_category_id","label":"Danh m\u1ee5c s\u1ea3n ph\u1ea9m","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"SELECT id, name FROM product_category;","dataVariable":"","options":[],"var_name":"po_tiki_category_id","colSpan":6}],[{"type":"text","variable":"po_tiki_receiver","var_uid":"511607581592d4ad233e272035108232","dataType":"string","protectedValue":false,"id":"po_tiki_receiver","name":"po_tiki_receiver","label":"Ng\u01b0\u1eddi nh\u1eadn h\u00e0ng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_tiki_receiver","colSpan":6},{"type":"text","variable":"po_tiki_phone","var_uid":"695996932592d4addd7b6e3050138416","dataType":"string","protectedValue":false,"id":"po_tiki_phone","name":"po_tiki_phone","label":"S\u1ed1 \u0111i\u1ec7n tho\u1ea1i","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_tiki_phone","colSpan":6}],[{"type":"text","variable":"po_tiki_contact_address","var_uid":"931079027592d4b4fe7a6d7013243798","dataType":"string","protectedValue":false,"id":"po_tiki_contact_address","name":"po_tiki_contact_address","label":"\u0110\u1ecba ch\u1ec9 nh\u1eadn h\u00e0ng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_tiki_contact_address","colSpan":12}],[{"type":"grid","variable":"po_line","var_uid":"828080585592d579a5deab7048074700","dataType":"grid","protectedValue":false,"id":"po_line","name":"po_line","label":"Th\u00f4ng tin \u0111\u1eb7t h\u00e0ng","hint":"","required":false,"columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_product_name","name":"po_line_product_name","label":"T\u00ean s\u1ea3n ph\u1ea9m","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"40","width":100,"title":"T\u00ean s\u1ea3n ph\u1ea9m"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_sku","name":"po_line_sku","label":"SKU","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"20","width":100,"title":"SKU"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_price_unit","name":"po_line_price_unit","label":"Gi\u00e1","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"10","width":100,"title":"Gi\u00e1"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_product_qty","name":"po_line_product_qty","label":"S\u1ed1 l\u01b0\u1ee3ng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"10","width":100,"title":"S\u1ed1 l\u01b0\u1ee3ng"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_discount","name":"po_line_discount","label":"Ph\u1ea7n tr\u0103m gi\u1ea3m gi\u00e1","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"20","width":100,"title":"Ph\u1ea7n tr\u0103m gi\u1ea3m gi\u00e1"}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":true,"title":"Th\u00f4ng tin \u0111\u1eb7t h\u00e0ng","colSpan":12}],[{"colSpan":6},{"colSpan":3},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"X\u00e1c nh\u1eadn","colSpan":3}]],"variables":[{"var_uid":"387271503592d4477840c26045393591","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_name","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"4194592495937d0779d4fb5092233911","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_partner","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"331020408592d4bdf750445042230733","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_amount_total","var_field_type":"float","var_field_size":10,"var_label":"float","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"136796594592d4b74163291088830525","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_category_id","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"SELECT id, name FROM product_category;","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"511607581592d4ad233e272035108232","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_receiver","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"695996932592d4addd7b6e3050138416","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_phone","var_field_type":"string","var_field_size":10,"var_label":"integer","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"931079027592d4b4fe7a6d7013243798","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_contact_address","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-06-08 11:56:16]]></dyn_update_date>
+        <dyn_title><![CDATA[Thông tin PO]]></dyn_title>
+        <dyn_description><![CDATA[Thông tin của 1 PO draft cần supplier confirm]]></dyn_description>
+      </record>
+      <record>
+        <dyn_uid>616434195592e83318154b5070618329</dyn_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[260912018592d3b1f6eed06058509693/616434195592e83318154b5070618329]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"\u0110\u01a1n \u0111\u1eb7t h\u00e0ng \u0111\u00e3 b\u1ecb t\u1eeb ch\u1ed1i","description":"Form \u0111\u1ec3 NCC nh\u1eadp v\u00e0o l\u00fd do t\u1eeb ch\u1ed1i \u0111\u01a1n \u0111\u1eb7t h\u00e0ng","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"616434195592e83318154b5070618329","name":"\u0110\u01a1n \u0111\u1eb7t h\u00e0ng \u0111\u00e3 b\u1ecb t\u1eeb ch\u1ed1i","description":"Form \u0111\u1ec3 NCC nh\u1eadp v\u00e0o l\u00fd do t\u1eeb ch\u1ed1i \u0111\u01a1n \u0111\u1eb7t h\u00e0ng","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"Nh\u1eadp v\u00e0o l\u00fd do t\u1eeb ch\u1ed1i \u0110\u01a1n \u0110\u1eb7t H\u00e0ng","colSpan":12}],[{"type":"textarea","variable":"supplier_note","var_uid":"438130598592e6820b71dd8025720879","dataType":"string","protectedValue":false,"id":"supplier_note","name":"supplier_note","label":"L\u00fd do t\u1eeb ch\u1ed1i","defaultValue":"","placeholder":"","hint":"","required":false,"validate":"","validateMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","rows":"5","var_name":"supplier_note","colSpan":12}],[{"type":"text","variable":"po_name","var_uid":"387271503592d4477840c26045393591","dataType":"string","protectedValue":false,"id":"po_name","name":"po_name","label":"M\u00e3 \u0111\u01a1n \u0111\u1eb7t h\u00e0ng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_name","colSpan":6},{"type":"text","variable":"po_amount_total","var_uid":"331020408592d4bdf750445042230733","dataType":"float","protectedValue":false,"id":"po_amount_total","name":"po_amount_total","label":"T\u1ed5ng gi\u00e1 tr\u1ecb","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"","dataVariable":"","var_name":"po_amount_total","colSpan":6}],[{"colSpan":6},{"type":"text","variable":"po_tiki_category_id","var_uid":"136796594592d4b74163291088830525","dataType":"integer","protectedValue":false,"id":"po_tiki_category_id","name":"po_tiki_category_id","label":"Danh m\u1ee5c s\u1ea3n ph\u1ea9m","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","datasource":"database","dbConnection":"526399602592d404ec3bf85064104014","dbConnectionLabel":"[10.20.43.10:5432] pgsql: tiki_erp_uat","sql":"SELECT id, name FROM product_category;","dataVariable":"","var_name":"po_tiki_category_id","colSpan":6}],[{"type":"grid","variable":"po_line","var_uid":"828080585592d579a5deab7048074700","dataType":"grid","protectedValue":false,"id":"po_line","name":"po_line","label":"Th\u00f4ng tin \u0111\u1eb7t h\u00e0ng","hint":"","required":false,"columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_name","name":"po_line_name","label":"T\u00ean s\u1ea3n ph\u1ea9m","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"40","width":100,"title":"T\u00ean s\u1ea3n ph\u1ea9m"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_sku","name":"po_line_sku","label":"SKU","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"20","width":100,"title":"SKU"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_price_unit","name":"po_line_price_unit","label":"Gi\u00e1","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"10","width":100,"title":"Gi\u00e1"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_product_qty","name":"po_line_product_qty","label":"S\u1ed1 l\u01b0\u1ee3ng","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"10","width":100,"title":"S\u1ed1 l\u01b0\u1ee3ng"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"po_line_discount","name":"po_line_discount","label":"Ph\u1ea7n tr\u0103m gi\u1ea3m gi\u00e1","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","columnWidth":"20","width":100,"title":"Ph\u1ea7n tr\u0103m gi\u1ea3m gi\u00e1"}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":true,"title":"Th\u00f4ng tin \u0111\u1eb7t h\u00e0ng","colSpan":12}],[{"colSpan":6},{"colSpan":3},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"X\u00e1c nh\u1eadn","colSpan":3}]],"variables":[{"var_uid":"438130598592e6820b71dd8025720879","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"supplier_note","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"438130598592e6820b71dd8025720879","var_name_old":"supplier_note","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"387271503592d4477840c26045393591","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_name","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"387271503592d4477840c26045393591","var_name_old":"po_name","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"331020408592d4bdf750445042230733","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_amount_total","var_field_type":"float","var_field_size":10,"var_label":"float","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"331020408592d4bdf750445042230733","var_name_old":"po_amount_total","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false},{"var_uid":"136796594592d4b74163291088830525","prj_uid":"260912018592d3b1f6eed06058509693","var_name":"po_tiki_category_id","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"526399602592d404ec3bf85064104014","var_dbconnection_label":"[10.20.43.10:5432] pgsql: tiki_erp_uat","var_sql":"SELECT id, name FROM product_category;","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"136796594592d4b74163291088830525","var_name_old":"po_tiki_category_id","prj_uid_old":"260912018592d3b1f6eed06058509693","create":false}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-06-09 11:19:03]]></dyn_update_date>
+        <dyn_title><![CDATA[Đơn đặt hàng đã bị từ chối]]></dyn_title>
+        <dyn_description><![CDATA[Form để NCC nhập vào lý do từ chối đơn đặt hàng]]></dyn_description>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>6774856985937ad5b834515039773852</step_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tas_uid>wee-820475937ad5b7de709097201201</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>600742783592d54de0f0508022740208</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>7780975555938cf016280a8078238527</step_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tas_uid>1667165105938c957347c41041428519</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>2174022795938ce574c05e6002322783</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>414031849593d31a6a9cc66061044868</tri_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@app_link = PMFCaseLink(@@APPLICATION, 'workflow', 'en', 'neoclassic');
+]]></tri_webbot>
+        <tri_param></tri_param>
+        <tri_title>Case Link</tri_title>
+        <tri_description><![CDATA[Link để đăng nhập tự động vào process maker]]></tri_description>
+      </record>
+      <record>
+        <tri_uid>460713098593e5e45ee9ed0034761708</tri_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[require_once '/opt/Classes/PHPExcel.php';
+require_once '/opt/Classes/PHPExcel/IOFactory.php';
+
+$objPHPExcel = new PHPExcel();
+
+$sheet = $objPHPExcel->getActiveSheet();
+$sheet->getStyle('A')
+  ->getNumberFormat()
+  ->setFormatCode(PHPExcel_Style_NumberFormat::FORMAT_TEXT);
+$sheet->mergeCells('A1:G1');
+$sheet->getStyle('A1:G1')
+  ->applyFromArray([
+    'alignment' => [
+      'horizontal' => PHPExcel_Style_Alignment::HORIZONTAL_CENTER,
+      'vertical' => PHPExcel_Style_Alignment::VERTICAL_CENTER,
+    ],
+    'font' => [
+      'color' => ['rgb' =>'000000'],
+      'bold' => true,
+      'name' => 'Arial',
+      'size' => 18,
+    ],
+  ]);
+$sheet->getStyle('A3:G3')
+  ->applyFromArray([
+    'alignment' => [
+      'horizontal' => PHPExcel_Style_Alignment::HORIZONTAL_CENTER,
+      'vertical' => PHPExcel_Style_Alignment::VERTICAL_CENTER,
+    ],
+    'font' => [
+      'color' => ['rgb' =>'000000'],
+      'bold' => true,
+      'name' => 'Arial',
+      'size' => 10,
+    ],
+  ]);
+$sheet->getRowDimension('1')
+  ->setRowHeight(30);
+$sheet->getRowDimension('3')
+  ->setRowHeight(22);
+$sheet->setCellValue('A1', 'Purchase Order Line Export');
+$sheet->fromArray([
+  ['SKU', 'Mincode', 'SKU Name', 'Quantity', 'Unit Price', 'Discount'],
+], null, 'A3');
+
+$rows = [];
+foreach(@=po_line as $line) {
+  $rows [] = [
+    $line['po_line_sku'],
+    str_replace(',', '-', $line['po_line_mincode'] ?: ''),
+    $line['po_line_product_name'],
+    $line['po_line_product_qty'],
+    $line['po_line_price_unit'],
+    $line['po_line_discount'],
+  ];
+}
+$sheet->fromArray($rows, null, 'A4');
+
+$g = new G();
+$path = PATH_DOCUMENT . 'output' . PATH_SEP . uniqid() . '.xlsx';
+$writer = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+$writer->save($path);
+
+$from = new Users();
+$from = $from->Load(@@USER_LOGGED);
+
+$hiName = @=erp_user_login;
+$poName = @=po_name;
+PMFSendMessage(@@APPLICATION, $from['USR_EMAIL'], 'giau.tran@tiki.vn,trucphuong.nguyen@tiki.vn', '', '',
+  "Hi {$hiName}, PO: {$poName} đã được NCC duyệt", 'emailEvent_1496982880686.html', [], [
+    str_replace('/', '-', @@po_name) . '.xlsx' => $path,
+  ]);]]></tri_webbot>
+        <tri_param></tri_param>
+        <tri_title>Send approval email with attachments</tri_title>
+        <tri_description></tri_description>
+      </record>
+      <record>
+        <tri_uid>5777455715937d26baa2b59075001030</tri_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$categoryId = @@po_tiki_category_id;
+$partnerId = @@po_tiki_partner_id;
+$flowUserName = @@flow_user_name;
+$newCaseId = @@APPLICATION;
+$poName = @@po_name;
+$link = PMFCaseLink(@@APPLICATION);
+@@app_link = $link;
+
+$data = executeQuery("SELECT USR_UID FROM USERS U WHERE U.USR_USERNAME = '{$flowUserName}'");
+if ($newCaseId && isset($data[1])) {
+  $designatedUser = $data[1]['USR_UID'];
+
+  $case = new Cases();
+  $caseData = $case->loadCase($newCaseId);
+  $caseData['APP_STATUS'] = 'TO_DO';
+  $case->updateCase($newCaseId, $caseData);
+
+  $delCase = executeQuery("SELECT DEL_INDEX FROM APP_DELEGATION WHERE APP_UID = '{$newCaseId}' AND DEL_THREAD_STATUS='OPEN'");
+  $case->reassignCase($newCaseId, $delCase[1]['DEL_INDEX'], @@USER_LOGGED, $designatedUser);
+
+  $from = new Users();
+  $from = $from->Load(@@USER_LOGGED);
+  $to = new Users();
+  $to = $to->Load($designatedUser);
+
+  $emailData = $caseData;
+  $emailData['app_link'] = $link;
+  $emailData['po_name'] = $poName;
+
+  PMFSendMessage($newCaseId, $from['USR_EMAIL'], $to['USR_EMAIL'], '', '',
+    "{$to['USR_FIRSTNAME']} {$to['USR_LASTNAME']} ơi, bạn nhận được đơn đặt hàng {$poName} từ Tiki",
+    'incomming_po.html', $emailData);
+}]]></tri_webbot>
+        <tri_param></tri_param>
+        <tri_title>Auto assign to manager</tri_title>
+        <tri_description></tri_description>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>-2</step_uid>
+        <tas_uid>1667165105938c957347c41041428519</tas_uid>
+        <tri_uid>460713098593e5e45ee9ed0034761708</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition><![CDATA[@@po_confirmed==1]]></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>7780975555938cf016280a8078238527</step_uid>
+        <tas_uid>1667165105938c957347c41041428519</tas_uid>
+        <tri_uid>414031849593d31a6a9cc66061044868</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections">
+      <record>
+        <dbs_uid>526399602592d404ec3bf85064104014</dbs_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <dbs_type>pgsql</dbs_type>
+        <dbs_server>10.20.43.10</dbs_server>
+        <dbs_database_name>tiki_erp_uat</dbs_database_name>
+        <dbs_username>o7pg-uat</dbs_username>
+        <dbs_password><![CDATA[5+ei39jR2uXnwuzKqtXZog_2NnV3ujj3w]]></dbs_password>
+        <dbs_port>5432</dbs_port>
+        <dbs_encode>UTF8</dbs_encode>
+        <dbs_connection_type>NORMAL</dbs_connection_type>
+        <dbs_tns></dbs_tns>
+        <dbs_description></dbs_description>
+      </record>
+    </table>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker">
+      <record>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <ct_map_type>PROCESSMAP</ct_map_type>
+        <ct_derivation_history>1</ct_derivation_history>
+        <ct_message_history>1</ct_message_history>
+      </record>
+    </table>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties">
+      <record>
+        <cfg_uid>TAS_EXTRA_PROPERTIES</cfg_uid>
+        <obj_uid>1667165105938c957347c41041428519</obj_uid>
+        <cfg_value><![CDATA[a:2:{s:20:"TAS_DEF_MESSAGE_TYPE";s:8:"template";s:24:"TAS_DEF_MESSAGE_TEMPLATE";s:29:"emailEvent_1496982880686.html";}]]></cfg_value>
+        <pro_uid></pro_uid>
+        <usr_uid></usr_uid>
+        <app_uid></app_uid>
+      </record>
+    </table>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>110766001592d4c2fc79928068041600</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_line_product_qty</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>136796594592d4b74163291088830525</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_tiki_category_id</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql><![CDATA[SELECT id, name FROM product_category;]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>175832254592d4bb413c977032681160</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_tiki_partner_id</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>201142088592d4a91bdf096059465632</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_line_product_name</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>273304331592d4c01429356017070523</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_line_order_line</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>331020408592d4bdf750445042230733</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_amount_total</var_name>
+        <var_field_type>float</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>float</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>353461527593a76e2da9cc2015091369</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>erp_user_email</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>357527552592e674426d283068663508</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>supplier_name</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>387271503592d4477840c26045393591</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_name</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4194592495937d0779d4fb5092233911</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_tiki_partner</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>438130598592e6820b71dd8025720879</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>supplier_note</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>511607581592d4ad233e272035108232</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_tiki_receiver</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>528408650592d4c22276f80061176669</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_line_price_unit</var_name>
+        <var_field_type>float</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>float</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>589516622592d44313b6201049199103</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_id</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>593278660593d3160985447029605492</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>app_link</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>686554276592e67bfa36365037785953</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_confirmed</var_name>
+        <var_field_type>boolean</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>boolean</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"Yes"},{"value":"0","label":"No"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>689022210592d4c54b0f330069317498</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_line_taxes</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>695996932592d4addd7b6e3050138416</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_tiki_phone</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>770886119593e93ae3eb444086193178</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_line_mincode</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>795010771592d4c4a04bf75086432065</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_line_discount</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>828080585592d579a5deab7048074700</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_line</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>844961915592e6735dbdd46011564917</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>supplier_address</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>931079027592d4b4fe7a6d7013243798</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_tiki_contact_address</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9359825925937cf6a0fc584028208454</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_category_name</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql><![CDATA[select name from product_category where id in(@=po_category_id)]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>974973897592e673d307793040460316</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>supplier_email</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>988983150592d4466d3c138017291918</var_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <var_name>po_line_id</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>526399602592d404ec3bf85064104014</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent">
+      <record>
+        <email_event_uid>681875270593a256bdd4d75056668340</email_event_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <evn_uid>757719423593a24b92f0b00040896680</evn_uid>
+        <email_event_from><![CDATA[trucphuong.nguyen@tiki.vn]]></email_event_from>
+        <email_event_to><![CDATA[@=erp_user_email]]></email_event_to>
+        <email_event_subject><![CDATA[Hi @=erp_user_email, PO: @=po_name đã được NCC duyệt]]></email_event_subject>
+        <prf_uid>746192358593a256bc78534020556437</prf_uid>
+        <email_server_uid>891029929583fed4c91fbe3032795528</email_server_uid>
+      </record>
+      <record>
+        <email_event_uid>996972152593e2ac49b4eb7096602387</email_event_uid>
+        <prj_uid>260912018592d3b1f6eed06058509693</prj_uid>
+        <evn_uid>409058097593e2a26b9fcd2015378708</evn_uid>
+        <email_event_from><![CDATA[trucphuong.nguyen@tiki.vn]]></email_event_from>
+        <email_event_to><![CDATA[@=erp_user_email]]></email_event_to>
+        <email_event_subject><![CDATA[Hi @=erp_user_email, PO: @=po_name bị từ chối]]></email_event_subject>
+        <prf_uid>997125360593e2ac48529e8097372180</prf_uid>
+        <email_server_uid>891029929583fed4c91fbe3032795528</email_server_uid>
+      </record>
+    </table>
+    <table name="filesManager">
+      <record>
+        <prf_uid>5446606365938d8f0ab9781003616219</prf_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid></prf_update_usr_uid>
+        <prf_path><![CDATA[/opt/bitnami/apps/processmaker/htdocs/shared/sites/workflow/public/260912018592d3b1f6eed06058509693/623308974592d3bc3ae7c08051925924.php]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>0</prf_editable>
+        <prf_create_date><![CDATA[2017-06-08 11:56:16]]></prf_create_date>
+        <prf_update_date></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>6444744625938d8f0aab9c6004725456</prf_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid></prf_update_usr_uid>
+        <prf_path><![CDATA[/opt/bitnami/apps/processmaker/htdocs/shared/sites/workflow/public/260912018592d3b1f6eed06058509693/623308974592d3bc3ae7c08051925924Post.php]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>0</prf_editable>
+        <prf_create_date><![CDATA[2017-06-08 11:56:16]]></prf_create_date>
+        <prf_update_date></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>6693312215938d8f0abf978078369735</prf_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid></prf_update_usr_uid>
+        <prf_path><![CDATA[/opt/bitnami/apps/processmaker/htdocs/shared/sites/workflow/public/260912018592d3b1f6eed06058509693/wsClient.php]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>0</prf_editable>
+        <prf_create_date><![CDATA[2017-06-08 11:56:16]]></prf_create_date>
+        <prf_update_date></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>746192358593a256bc78534020556437</prf_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid>67398892158f5c8bf86c345097876548</prf_update_usr_uid>
+        <prf_path><![CDATA[/opt/bitnami/apps/processmaker/htdocs/shared/sites/workflow/mailTemplates/260912018592d3b1f6eed06058509693/emailEvent_1496982880686.html]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>1</prf_editable>
+        <prf_create_date><![CDATA[2017-06-09 11:34:51]]></prf_create_date>
+        <prf_update_date><![CDATA[2017-06-12 20:05:46]]></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>929439308593d3db5ceec16018759740</prf_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <usr_uid>67398892158f5c8bf86c345097876548</usr_uid>
+        <prf_update_usr_uid>67398892158f5c8bf86c345097876548</prf_update_usr_uid>
+        <prf_path><![CDATA[/opt/bitnami/apps/processmaker/htdocs/shared/sites/workflow/mailTemplates/260912018592d3b1f6eed06058509693/incomming_po.html]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>1</prf_editable>
+        <prf_create_date><![CDATA[2017-06-11 19:55:17]]></prf_create_date>
+        <prf_update_date><![CDATA[2017-06-12 17:51:58]]></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>997125360593e2ac48529e8097372180</prf_uid>
+        <pro_uid>260912018592d3b1f6eed06058509693</pro_uid>
+        <usr_uid>67398892158f5c8bf86c345097876548</usr_uid>
+        <prf_update_usr_uid>67398892158f5c8bf86c345097876548</prf_update_usr_uid>
+        <prf_path><![CDATA[/opt/bitnami/apps/processmaker/htdocs/shared/sites/workflow/mailTemplates/260912018592d3b1f6eed06058509693/emailEvent_1497246384707.html]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>1</prf_editable>
+        <prf_create_date><![CDATA[2017-06-12 12:46:44]]></prf_create_date>
+        <prf_update_date><![CDATA[2017-06-12 19:58:53]]></prf_update_date>
+      </record>
+    </table>
+    <table name="abeConfiguration"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name><![CDATA[Xác nhận đơn đặt hàng]]></file_name>
+      <file_path><![CDATA[260912018592d3b1f6eed06058509693/2174022795938ce574c05e6002322783.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjI2MDkxMjAxODU5MmQzYjFmNmVlZDA2MDU4NTA5NjkzLzIxNzQwMjI3OTU5MzhjZTU3NGMwNWU2MDAyMzIyNzgzIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name><![CDATA[Thông tin PO]]></file_name>
+      <file_path><![CDATA[260912018592d3b1f6eed06058509693/600742783592d54de0f0508022740208.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjI2MDkxMjAxODU5MmQzYjFmNmVlZDA2MDU4NTA5NjkzLzYwMDc0Mjc4MzU5MmQ1NGRlMGYwNTA4MDIyNzQwMjA4IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name><![CDATA[Đơn đặt hàng đã bị từ chối]]></file_name>
+      <file_path><![CDATA[260912018592d3b1f6eed06058509693/616434195592e83318154b5070618329.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjI2MDkxMjAxODU5MmQzYjFmNmVlZDA2MDU4NTA5NjkzLzYxNjQzNDE5NTU5MmU4MzMxODE1NGI1MDcwNjE4MzI5IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="templates">
+      <file_name>emailEvent_1496982880686.html</file_name>
+      <file_path><![CDATA[260912018592d3b1f6eed06058509693/emailEvent_1496982880686.html]]></file_path>
+      <file_content><![CDATA[PHA+UE8gxJEmYXRpbGRlOyDEkcaw4bujYyBOQ0MgZHV54buHdCwgYuG6oW4gdnVpIGwmb2dyYXZlO25nIHRo4buxYyBoaeG7h24gYyZhYWN1dGU7YyBixrDhu5tjIHRp4bq/cCB0aGVvIOG7nyBFUlA8L3A+CjxwPjxhIGhyZWY9Imh0dHA6Ly9lcnB1YXQudGlraS52bi8jaWQ9QD1wb19pZCZhbXA7dmlld190eXBlPWZvcm0mYW1wO21vZGVsPXB1cmNoYXNlLm9yZGVyJmFtcDttZW51X2lkPTMxNCZhbXA7YWN0aW9uPTM1OSI+xJDGsOG7nW5nIGThuqtuIHYmYWdyYXZlO28gUE8g4bufIEVSUDwvYT48L3A+CjxwPjxzcGFuIHN0eWxlPSJjb2xvcjogIzAwMDAwMDsiPlRoJm9jaXJjO25nIHRpbiDEkcahbiDEkeG6t3QgaCZhZ3JhdmU7bmc6Jm5ic3A7PC9zcGFuPjwvcD4KPHVsPgo8bGk+TSZhdGlsZGU7IMSRxqFuIMSR4bq3dCBoJmFncmF2ZTtuZzogQD1wb19uYW1lPC9saT4KPGxpPkRhbmggbeG7pWMgc+G6o24gcGjhuqltOiZuYnNwO0A9cG9fY2F0ZWdvcnlfbmFtZTwvbGk+CjxsaT5UJmVjaXJjO24gTmgmYWdyYXZlOyBDdW5nIEPhuqVwOiZuYnNwO0A9cG9fdGlraV9wYXJ0bmVyPC9saT4KPC91bD4KPHA+VGgmb2NpcmM7bmcgdGluIGNoaSB0aeG6v3QgTkNDIMSRJmF0aWxkZTsgeCZhYWN1dGU7YyBuaOG6rW46Jm5ic3A7PC9wPgo8dGFibGUgYWxpZ249ImxlZnQiIGNsYXNzPSJncmlkIiBzdHlsZT0icGFkZGluZzogMHB4OyBib3JkZXItY29sb3I6ICM4YThhOGE7IGJvcmRlci13aWR0aDogMXB4OyBib3JkZXItc3R5bGU6IHNvbGlkOyB3aWR0aDogMTAwJTsiIGNlbGxwYWRkaW5nPSIwIiBjZWxsc3BhY2luZz0iMCI+Cjx0aGVhZD4KPHRyPjx0aCBzdHlsZT0iYm9yZGVyLWNvbG9yOiAjYzdjN2M3OyBib3JkZXItc3R5bGU6IHNvbGlkOyBib3JkZXItd2lkdGg6IDFweDsiPgo8cD48L3A+CjxwPlQmZWNpcmM7biBz4bqjbiBwaOG6qW08L3A+CjwvdGg+PHRoIHN0eWxlPSJib3JkZXItY29sb3I6ICNjN2M3Yzc7IGJvcmRlci1zdHlsZTogc29saWQ7IGJvcmRlci13aWR0aDogMXB4OyI+CjxwPjwvcD4KPHA+U0tVPC9wPgo8L3RoPjx0aCBzdHlsZT0iYm9yZGVyLWNvbG9yOiAjYzdjN2M3OyBib3JkZXItc3R5bGU6IHNvbGlkOyBib3JkZXItd2lkdGg6IDFweDsiPgo8cD48L3A+CjxwPkdpJmFhY3V0ZTs8L3A+CjwvdGg+PHRoIHN0eWxlPSJib3JkZXItY29sb3I6ICNjN2M3Yzc7IGJvcmRlci1zdHlsZTogc29saWQ7IGJvcmRlci13aWR0aDogMXB4OyI+CjxwPjwvcD4KPHA+U+G7kSBsxrDhu6NuZzwvcD4KPC90aD48dGggc3R5bGU9ImJvcmRlci1jb2xvcjogI2M3YzdjNzsgYm9yZGVyLXN0eWxlOiBzb2xpZDsgYm9yZGVyLXdpZHRoOiAxcHg7Ij4KPHA+PC9wPgo8cD4lIGdp4bqjbSBnaSZhYWN1dGU7PC9wPgo8L3RoPjwvdHI+CjwvdGhlYWQ+Cjx0Ym9keT48IS0tQD5wb19saW5lLS0+Cjx0cj4KPHRkIHN0eWxlPSJib3JkZXItY29sb3I6ICNjN2M3Yzc7IGJvcmRlci1zdHlsZTogc29saWQ7IGJvcmRlci13aWR0aDogMXB4OyBmb250LXdlaWdodDogbm9uZTsiPkAjcG9fbGluZV9wcm9kdWN0X25hbWU8L3RkPgo8dGQgc3R5bGU9ImJvcmRlci1jb2xvcjogI2M3YzdjNzsgYm9yZGVyLXN0eWxlOiBzb2xpZDsgYm9yZGVyLXdpZHRoOiAxcHg7IGZvbnQtd2VpZ2h0OiBub25lOyI+Jm5ic3A7QCNwb19saW5lX3NrdSZuYnNwOzwvdGQ+Cjx0ZCBzdHlsZT0iYm9yZGVyLWNvbG9yOiAjYzdjN2M3OyBib3JkZXItc3R5bGU6IHNvbGlkOyBib3JkZXItd2lkdGg6IDFweDsgZm9udC13ZWlnaHQ6IG5vbmU7Ij4mbmJzcDtAI3BvX2xpbmVfcHJpY2VfdW5pdCZuYnNwOzwvdGQ+Cjx0ZCBzdHlsZT0iYm9yZGVyLWNvbG9yOiAjYzdjN2M3OyBib3JkZXItc3R5bGU6IHNvbGlkOyBib3JkZXItd2lkdGg6IDFweDsgZm9udC13ZWlnaHQ6IG5vbmU7Ij4mbmJzcDtAI3BvX2xpbmVfcHJvZHVjdF9xdHkmbmJzcDs8L3RkPgo8dGQgc3R5bGU9ImJvcmRlci1jb2xvcjogI2M3YzdjNzsgYm9yZGVyLXN0eWxlOiBzb2xpZDsgYm9yZGVyLXdpZHRoOiAxcHg7IGZvbnQtd2VpZ2h0OiBub25lOyI+Jm5ic3A7QCNwb19saW5lX2Rpc2NvdW50Jm5ic3A7PC90ZD4KPC90cj4KPCEtLUA8cG9fbGluZS0tPjwvdGJvZHk+CjwvdGFibGU+CjxwPjwvcD4KPHA+PC9wPgo8cD48L3A+CjxwPjwvcD4=]]></file_content>
+    </file>
+    <file target="templates">
+      <file_name>emailEvent_1497246384707.html</file_name>
+      <file_path><![CDATA[260912018592d3b1f6eed06058509693/emailEvent_1497246384707.html]]></file_path>
+      <file_content><![CDATA[PHA+UE8gxJEmYXRpbGRlOyBi4buLIE5DQyB04burIGNo4buRaSwgYuG6oW4gdnVpIGwmb2dyYXZlO25nIHRo4buxYyBoaeG7h24gYyZhYWN1dGU7YyBixrDhu5tjIHRp4bq/cCB0aGVvIOG7nyBFUlA8L3A+CjxwPjxzcGFuPlRoJm9jaXJjO25nIHRpbiDEkcahbiDEkeG6t3QgaCZhZ3JhdmU7bmc6Jm5ic3A7PC9zcGFuPjwvcD4KPHVsPgo8bGk+TSZhdGlsZGU7IMSRxqFuIMSR4bq3dCBoJmFncmF2ZTtuZzogQD1wb19uYW1lPC9saT4KPGxpPkRhbmggbeG7pWMgc+G6o24gcGjhuqltOiZuYnNwO0A9cG9fY2F0ZWdvcnlfbmFtZTwvbGk+CjxsaT5UJmVjaXJjO24gTmgmYWdyYXZlOyBDdW5nIEPhuqVwOiZuYnNwO0A9cG9fdGlraV9wYXJ0bmVyPC9saT4KPC91bD4KPHA+PGEgaHJlZj0iaHR0cDovL2VycHVhdC50aWtpLnZuLyNpZD1APXBvX2lkJmFtcDt2aWV3X3R5cGU9Zm9ybSZhbXA7bW9kZWw9cHVyY2hhc2Uub3JkZXImYW1wO21lbnVfaWQ9MzE0JmFtcDthY3Rpb249MzU5Ij7EkMaw4budbmcgZOG6q24gdiZhZ3JhdmU7byBQTyDhu58gRVJQPC9hPjwvcD4KPHA+PC9wPg==]]></file_content>
+    </file>
+    <file target="templates">
+      <file_name>incomming_po.html</file_name>
+      <file_path><![CDATA[260912018592d3b1f6eed06058509693/incomming_po.html]]></file_path>
+      <file_content><![CDATA[PHA+WGluIGNoJmFncmF2ZTtvLCZuYnNwOzwvcD4KPHA+QuG6oW4gbmjhuq1uIMSRxrDhu6NjIDEgxJHGoW4gxJHhurd0IGgmYWdyYXZlO25nIHThu6sgVGlraS4mbmJzcDs8L3A+CjxwPlZ1aSBsJm9ncmF2ZTtuZyBjbGljayB2JmFncmF2ZTtvIDxhIGhyZWY9IkA9YXBwX2xpbmsiPsSRJmFjaXJjO3kgPC9hPsSR4buDIGtp4buDbSB0cmEgdiZhZ3JhdmU7IHBo4bqjbiBo4buTaS4mbmJzcDs8L3A+CjxwPlRoJm9jaXJjO25nIHRpbiDEkcahbiDEkeG6t3QgaCZhZ3JhdmU7bmc6Jm5ic3A7PC9wPgo8dWw+CjxsaT5NJmF0aWxkZTsgxJHGoW4gxJHhurd0IGgmYWdyYXZlO25nOiBAPXBvX25hbWU8L2xpPgo8bGk+RGFuaCBt4bulYyBz4bqjbiBwaOG6qW06Jm5ic3A7QD1wb19jYXRlZ29yeV9uYW1lPC9saT4KPGxpPlQmZWNpcmM7biBOaCZhZ3JhdmU7IEN1bmcgQ+G6pXA6Jm5ic3A7QD1wb190aWtpX3BhcnRuZXI8L2xpPgo8bGk+VOG7lW5nIGdpJmFhY3V0ZTsgdGnhu4FuIGThu7EgdCZpYWN1dGU7bmg6IEA9cG9fYW1vdW50X3RvdGFsPC9saT4KPC91bD4KPHA+VGgmb2NpcmM7bmcgdGluIHPhuqNuIHBo4bqpbSB0cm9uZyDEkcahbiDEkeG6t3QgaCZhZ3JhdmU7bmc6PC9wPgo8cD48L3A+Cjx0YWJsZSBhbGlnbj0ibGVmdCIgY2xhc3M9ImdyaWQiIHN0eWxlPSJwYWRkaW5nOiAwcHg7IGJvcmRlci1jb2xvcjogIzhhOGE4YTsgYm9yZGVyLXdpZHRoOiAxcHg7IGJvcmRlci1zdHlsZTogc29saWQ7IHdpZHRoOiAxMDAlOyIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIj4KPHRoZWFkPgo8dHI+PHRoIHN0eWxlPSJib3JkZXItY29sb3I6ICNjN2M3Yzc7IGJvcmRlci1zdHlsZTogc29saWQ7IGJvcmRlci13aWR0aDogMXB4OyI+CjxwPjwvcD4KPHA+VCZlY2lyYztuIHPhuqNuIHBo4bqpbTwvcD4KPC90aD48dGggc3R5bGU9ImJvcmRlci1jb2xvcjogI2M3YzdjNzsgYm9yZGVyLXN0eWxlOiBzb2xpZDsgYm9yZGVyLXdpZHRoOiAxcHg7Ij4KPHA+PC9wPgo8cD5TS1U8L3A+CjwvdGg+PHRoIHN0eWxlPSJib3JkZXItY29sb3I6ICNjN2M3Yzc7IGJvcmRlci1zdHlsZTogc29saWQ7IGJvcmRlci13aWR0aDogMXB4OyI+CjxwPjwvcD4KPHA+R2kmYWFjdXRlOzwvcD4KPC90aD48dGggc3R5bGU9ImJvcmRlci1jb2xvcjogI2M3YzdjNzsgYm9yZGVyLXN0eWxlOiBzb2xpZDsgYm9yZGVyLXdpZHRoOiAxcHg7Ij4KPHA+PC9wPgo8cD5T4buRIGzGsOG7o25nPC9wPgo8L3RoPjx0aCBzdHlsZT0iYm9yZGVyLWNvbG9yOiAjYzdjN2M3OyBib3JkZXItc3R5bGU6IHNvbGlkOyBib3JkZXItd2lkdGg6IDFweDsiPgo8cD48L3A+CjxwPiUgZ2nhuqNtIGdpJmFhY3V0ZTs8L3A+CjwvdGg+PC90cj4KPC90aGVhZD4KPHRib2R5PjwhLS1APnBvX2xpbmUtLT4KPHRyPgo8dGQgc3R5bGU9ImJvcmRlci1jb2xvcjogI2M3YzdjNzsgYm9yZGVyLXN0eWxlOiBzb2xpZDsgYm9yZGVyLXdpZHRoOiAxcHg7IGZvbnQtd2VpZ2h0OiBub25lOyI+QCNwb19saW5lX3Byb2R1Y3RfbmFtZTwvdGQ+Cjx0ZCBzdHlsZT0iYm9yZGVyLWNvbG9yOiAjYzdjN2M3OyBib3JkZXItc3R5bGU6IHNvbGlkOyBib3JkZXItd2lkdGg6IDFweDsgZm9udC13ZWlnaHQ6IG5vbmU7Ij4mbmJzcDtAI3BvX2xpbmVfc2t1Jm5ic3A7PC90ZD4KPHRkIHN0eWxlPSJib3JkZXItY29sb3I6ICNjN2M3Yzc7IGJvcmRlci1zdHlsZTogc29saWQ7IGJvcmRlci13aWR0aDogMXB4OyBmb250LXdlaWdodDogbm9uZTsiPiZuYnNwO0AjcG9fbGluZV9wcmljZV91bml0Jm5ic3A7PC90ZD4KPHRkIHN0eWxlPSJib3JkZXItY29sb3I6ICNjN2M3Yzc7IGJvcmRlci1zdHlsZTogc29saWQ7IGJvcmRlci13aWR0aDogMXB4OyBmb250LXdlaWdodDogbm9uZTsiPiZuYnNwO0AjcG9fbGluZV9wcm9kdWN0X3F0eSZuYnNwOzwvdGQ+Cjx0ZCBzdHlsZT0iYm9yZGVyLWNvbG9yOiAjYzdjN2M3OyBib3JkZXItc3R5bGU6IHNvbGlkOyBib3JkZXItd2lkdGg6IDFweDsgZm9udC13ZWlnaHQ6IG5vbmU7Ij4mbmJzcDtAI3BvX2xpbmVfZGlzY291bnQmbmJzcDs8L3RkPgo8L3RyPgo8IS0tQDxwb19saW5lLS0+PC90Ym9keT4KPC90YWJsZT4KPHA+PC9wPgo8cD48L3A+CjxwPjwvcD4KPHA+PC9wPgo8cD5YaW4gY+G6o20gxqFuLCZuYnNwOzwvcD4=]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

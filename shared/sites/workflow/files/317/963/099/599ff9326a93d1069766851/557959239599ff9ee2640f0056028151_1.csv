@@ -1,0 +1,10 @@
+invoice_number,sale_number,date_invoice,net_value,unpaid_amount,receipt_date,carrier_name,collector,payment_method,service_status,date_done,invoice_type
+CI/2017/08/002037,23085411,8/2/2017,50001,50001,,,pay123,pay123,Giao hàng thành công,8/2/2017,
+CI/2017/08/002043,46640284,8/2/2017,57001,57001,,,,cod,Đang đóng gói,,
+CI/2017/08/002048,71332819,8/2/2017,78000,78000,,Tiki Team,cybersource,cybersource,Giao hàng thành công,8/2/2017,
+CI/2017/08/002035,86426312,8/2/2017,50001,50001,,,pay123,pay123,Giao hàng thành công,8/2/2017,
+CI/2017/08/002042,99450793,8/2/2017,57001,57001,,Tiki Team,TikiTeam - HCM,cod,Hoàn thành,8/2/2017,
+CI/2017/08/002118,52130175,8/9/2017,440801.79,440801.79,,Tiki Team,TikiTeam - HCM,cod,Giao hàng thành công,8/9/2017,Refund
+CI/2017/08/002105,60090898,8/9/2017,47000.86,47000.86,,Tiki Team,cybersource,cybersource,Giao hàng thành công,8/22/2017,
+CI/2017/08/002121,79192361,8/9/2017,440800.89,440800.89,,,cybersource,cybersource,Đã hủy,,
+CI/2017/08/002132,64618388,8/10/2017,552900.79,552900.79,,Tiki Team,cybersource,cybersource,Hoàn thành,8/10/2017,Refund

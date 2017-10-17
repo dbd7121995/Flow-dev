@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.1-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1503030585</meta>
+    <meta key="export_datetime"><![CDATA[2017-08-18T11:29:45+07:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[172.22.255.251:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50628</meta>
+    <meta key="export_version">1</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name">Manual Trigger</meta>
+    <meta key="uid">40094052059964fb9b53a61005985858</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>37518323859965125ac3ac2051797348</act_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <pro_uid>34922077559964fb9b819c1051104101</pro_uid>
+        <act_name>Renew password</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>43515158259965125ac7da2080645743</bou_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>37518323859965125ac3ac2051797348</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>730</bou_x>
+        <bou_y>58</bou_y>
+        <bou_width>151</bou_width>
+        <bou_height>34</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <act_uid>98077169959965035aa30c0048303879</act_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <pro_uid>34922077559964fb9b819c1051104101</pro_uid>
+        <act_name>Choose Trigger</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>71918863159965035aa7985068084400</bou_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>98077169959965035aa30c0048303879</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>162</bou_x>
+        <bou_y>312</bou_y>
+        <bou_width>107</bou_width>
+        <bou_height>29</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>161484400599650d5b12594017674305</bou_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>279989411599650d5b0e4f0074225380</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>515</bou_x>
+        <bou_y>306</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>43515158259965125ac7da2080645743</bou_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>37518323859965125ac3ac2051797348</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>730</bou_x>
+        <bou_y>58</bou_y>
+        <bou_width>151</bou_width>
+        <bou_height>34</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>6697039835996500da06466014350467</bou_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>9540313735996500da02605008581934</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>1198</bou_x>
+        <bou_y>310</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>71918863159965035aa7985068084400</bou_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>98077169959965035aa30c0048303879</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>162</bou_x>
+        <bou_y>312</bou_y>
+        <bou_width>107</bou_width>
+        <bou_height>29</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>99365138759964fe5a8d211087131931</bou_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>10242599659964fe5a87582020812660</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>13</bou_x>
+        <bou_y>310</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_name>Manual Trigger</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>10242599659964fe5a87582020812660</evn_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <pro_uid>34922077559964fb9b819c1051104101</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>99365138759964fe5a8d211087131931</bou_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>10242599659964fe5a87582020812660</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>13</bou_x>
+        <bou_y>310</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>9540313735996500da02605008581934</evn_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <pro_uid>34922077559964fb9b819c1051104101</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>6697039835996500da06466014350467</bou_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>9540313735996500da02605008581934</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>1198</bou_x>
+        <bou_y>310</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>112560280599653cd978181036985565</flo_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>279989411599650d5b0e4f0074225380</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>37518323859965125ac3ac2051797348</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@triggerName == 'renewpassword']]></flo_condition>
+        <flo_x1>536</flo_x1>
+        <flo_y1>306</flo_y1>
+        <flo_x2>730</flo_x2>
+        <flo_y2>76</flo_y2>
+        <flo_state><![CDATA[[{"x":536,"y":306},{"x":536,"y":76},{"x":730,"y":76}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>832714220599653cd979247050579528</flo_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>37518323859965125ac3ac2051797348</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>9540313735996500da02605008581934</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>881</flo_x1>
+        <flo_y1>76</flo_y1>
+        <flo_x2>1215</flo_x2>
+        <flo_y2>310</flo_y2>
+        <flo_state><![CDATA[[{"x":881,"y":76},{"x":1215,"y":76},{"x":1215,"y":310}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>910448474599650fda35316063791829</flo_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>98077169959965035aa30c0048303879</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>279989411599650d5b0e4f0074225380</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>269</flo_x1>
+        <flo_y1>327</flo_y1>
+        <flo_x2>515</flo_x2>
+        <flo_y2>327</flo_y2>
+        <flo_state><![CDATA[[{"x":269,"y":327},{"x":515,"y":327}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>957072221599650fda34330004006982</flo_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>10242599659964fe5a87582020812660</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>98077169959965035aa30c0048303879</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>46</flo_x1>
+        <flo_y1>327</flo_y1>
+        <flo_x2>162</flo_x2>
+        <flo_y2>327</flo_y2>
+        <flo_state><![CDATA[[{"x":46,"y":327},{"x":162,"y":327}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY">
+      <record>
+        <gat_uid>279989411599650d5b0e4f0074225380</gat_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <pro_uid>34922077559964fb9b819c1051104101</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>161484400599650d5b12594017674305</bou_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <element_uid>279989411599650d5b0e4f0074225380</element_uid>
+        <bou_element>212443755599653feb622a9033697597</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>515</bou_x>
+        <bou_y>306</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>34922077559964fb9b819c1051104101</pro_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <dia_uid>51004470059964fb9b77133045318221</dia_uid>
+        <pro_name>Manual Trigger</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <prj_name>Manual Trigger</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2017-08-18 09:23:53]]></prj_create_date>
+        <prj_update_date><![CDATA[2017-08-18 09:48:58]]></prj_update_date>
+        <prj_author>67398892158f5c8bf86c345097876548</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <pro_title>Manual Trigger</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>40094052059964fb9b53a61005985858</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2017-08-18 09:48:58]]></pro_update_date>
+        <pro_create_date><![CDATA[2017-08-18 09:23:53]]></pro_create_date>
+        <pro_create_user>67398892158f5c8bf86c345097876548</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>1</pro_debug>
+        <pro_dynaforms></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <tas_uid>98077169959965035aa30c0048303879</tas_uid>
+        <tas_title>Choose Trigger</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>67398892158f5c8bf86c345097876548</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>162</tas_posx>
+        <tas_posy>312</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+      </record>
+      <record>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <tas_uid>37518323859965125ac3ac2051797348</tas_uid>
+        <tas_title>Renew password</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>67398892158f5c8bf86c345097876548</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>730</tas_posx>
+        <tas_posy>58</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>5917166015996559aab9a24066645544</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <tas_uid>98077169959965035aa30c0048303879</tas_uid>
+        <rou_next_task>37518323859965125ac3ac2051797348</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@triggerName == 'renewpassword']]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>7640900215996559aaa6298010931085</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <tas_uid>37518323859965125ac3ac2051797348</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>10258061959965145052ac9024671909</dyn_uid>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[40094052059964fb9b53a61005985858/10258061959965145052ac9024671909]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Trigger","description":"Tất cả các trigger","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"10258061959965145052ac9024671909","name":"Trigger","description":"Tất cả các trigger","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"subtitle","id":"subtitle0000000001","label":"Danh sách các trigger","colSpan":12}],[{"type":"dropdown","variable":"triggerName","var_uid":"41855907959965293464fa9008112838","dataType":"string","protectedValue":false,"id":"triggerName","name":"triggerName","label":"Trigger","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"renewpassword","label":"Update User phải đổi pass lần đầu đăng nhập"}],"var_name":"triggerName","colSpan":12}],[{"colSpan":6},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Run","colSpan":6}]],"variables":[{"var_uid":"41855907959965293464fa9008112838","prj_uid":"40094052059964fb9b53a61005985858","var_name":"triggerName","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-08-18 09:39:52]]></dyn_update_date>
+        <dyn_title>Trigger</dyn_title>
+        <dyn_description><![CDATA[Tất cả các trigger]]></dyn_description>
+      </record>
+      <record>
+        <dyn_uid>43718162859965476d7ed48079533435</dyn_uid>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[40094052059964fb9b53a61005985858/43718162859965476d7ed48079533435]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Renew Password","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"43718162859965476d7ed48079533435","name":"Renew Password","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"subtitle","id":"subtitle0000000001","label":"Update các user phải đổi mật khẩu khi đăng nhập lần đầu","colSpan":12}],[{"type":"textarea","variable":"renewpassword_users","var_uid":"85511259559965505575711008939897","dataType":"string","protectedValue":false,"id":"renewpassword_users","name":"renewpassword_users","label":"Users","defaultValue":"","placeholder":"Các tên username cách nhau dấu ','","hint":"","required":false,"validate":"","validateMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","rows":"5","var_name":"renewpassword_users","colSpan":12}],[{"colSpan":6},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Run","colSpan":6}]],"variables":[{"var_uid":"85511259559965505575711008939897","prj_uid":"40094052059964fb9b53a61005985858","var_name":"renewpassword_users","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-08-18 09:52:57]]></dyn_update_date>
+        <dyn_title>Renew Password</dyn_title>
+        <dyn_description></dyn_description>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>69074037859965481a21883062826038</step_uid>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <tas_uid>37518323859965125ac3ac2051797348</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>43718162859965476d7ed48079533435</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>8044933815996544798b5a0057112399</step_uid>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <tas_uid>98077169959965035aa30c0048303879</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>10258061959965145052ac9024671909</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>618105710599656f826bcb3081345052</tri_uid>
+        <pro_uid>40094052059964fb9b53a61005985858</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[// Quote query data
+$users = explode(',', @@renewpassword_users);
+$users = "'" . implode( "','", $users) . "'";
+
+$query = 'SELECT * FROM USERS WHERE USR_USERNAME IN ('. $users .')';
+$result = executeQuery($query);
+
+foreach($result as $_result) {
+	echo 'User ' . $_result['USR_USERNAME'] . '================<br>';
+	$userProQuery = 'SELECT * FROM USERS_PROPERTIES WHERE USR_UID = "'.$_result['USR_UID'].'"';
+	$resUserPro = executeQuery($userProQuery);
+
+	if (!$resUserPro[1]) {
+		$insertQuery = 'INSERT INTO USERS_PROPERTIES (USR_UID) VALUES ("'. $_result['USR_UID'] .'")';
+		$resInsert = executeQuery($insertQuery);
+		
+		if ($resInsert) {
+			echo 'User ' . $_result['USR_USERNAME'] . ' tạo thuộc tính thành công<br>';
+		}
+	}
+	
+	$updateUserProQuery = 'UPDATE USERS_PROPERTIES SET USR_LOGGED_NEXT_TIME=1 WHERE USR_UID = "'. $_result['USR_UID'] .'"';
+	$resUpdate = executeQuery($updateUserProQuery);
+	
+	if ($resUpdate) {
+		echo 'User ' . $_result['USR_USERNAME'] . ' cập nhật thành công<br>';
+	} else {
+		echo 'User ' . $_result['USR_USERNAME'] . ' cập nhật thất bại<br>';
+	}
+
+}
+
+
+]]></tri_webbot>
+        <tri_param></tri_param>
+        <tri_title>Renew Password</tri_title>
+        <tri_description><![CDATA[Cập nhật User bắt buộc đổi mật khẩu lần đầu đăng nhập]]></tri_description>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>-1</step_uid>
+        <tas_uid>37518323859965125ac3ac2051797348</tas_uid>
+        <tri_uid>618105710599656f826bcb3081345052</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>366847728599651b7dcb9a8014728872</var_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <var_name>RenewPassword</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>41855907959965293464fa9008112838</var_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <var_name>triggerName</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>85511259559965505575711008939897</var_uid>
+        <prj_uid>40094052059964fb9b53a61005985858</prj_uid>
+        <var_name>renewpassword_users</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>Trigger</file_name>
+      <file_path><![CDATA[40094052059964fb9b53a61005985858/10258061959965145052ac9024671909.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjQwMDk0MDUyMDU5OTY0ZmI5YjUzYTYxMDA1OTg1ODU4LzEwMjU4MDYxOTU5OTY1MTQ1MDUyYWM5MDI0NjcxOTA5IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>Renew Password</file_name>
+      <file_path><![CDATA[40094052059964fb9b53a61005985858/43718162859965476d7ed48079533435.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjQwMDk0MDUyMDU5OTY0ZmI5YjUzYTYxMDA1OTg1ODU4LzQzNzE4MTYyODU5OTY1NDc2ZDdlZDQ4MDc5NTMzNDM1IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

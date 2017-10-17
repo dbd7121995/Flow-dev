@@ -1,0 +1,43 @@
+
+Release Notes - ProcessMaker 3.1.1
+
+Release date: October 11th, 2016
+The ProcessMaker 3.1.1 Official Release comprises 4 improvements, and 12 solved bugs. Since releases are accumulative, the list of previous versions is listed inside the Fixed bugs list v. 3.1 document.
+
+1. System Requirements
+   To ensure its correct functionality, ProcessMaker 3.1.1 must be installed on one of the officially supported stacks.
+   Additionally, take a look at the supported browsers list for this version.
+
+2. Enhancements/Improvements
+   FBI-1157	Zendesk [3654] Event Labels are not displayed in routing conditions with intermediate message event
+   FBI-1158	[Zendesk 3660] Grid controls are not being hidden in Mobile 1.1.0.
+   HOR-1998	[Zendesk 3576] Label change for next step screen
+   HOR-2022	Detailed Cron logs implemented (Zendesk 2654) 
+
+3. Known Issues
+   HOR-1965	Plugins are not being imported when the plugin name includes underscore characters
+   HOR-1952	Neither Script Tasks, ABE or SubProcesses are Working, Before a Manual Assignment
+   FBI-1135	File control getValue helper doesn't return a consistent value
+   FBI-1119	Datepicker in a grid is not displayed correctly in mobile
+   FBI-804	Date format not supported on date picker 5 issues  Refresh
+
+4. Bugs Fixed
+   HOR-2040	[Zendesk - 3663] The case title and case description are not displayed properly on Summary
+   HOR-2031	[ZENDESK 3640 Mantis 21462] Case title values are not being updated. Only the case number is displayed instead
+   HOR-2020	[Zendesk - 3663] The case title and case description are not displayed properly on Summary
+   HOR-2019	[ZenDesk 3652 ] Supervisors assigned to groups do not have permission to view Dynaforms (ProcessMaker 3.1)
+   HOR-2018	[Zendesk 3658] Process Lists in the new case is showing the title and the date of update.
+   HOR-1984	After completing a case, only a blank screen is displayed instead of the case list
+   HOR-1975	[Mantis 21344] Current task in participated tray is not being updated correctly when next task assignment is self service
+   HOR-1810	information disclosure on appFolderAjax.php
+   FBI-1159	[ZENDESK 3655] Mobile enabled and disabled fields for date picker look alike
+   FBI-1150	[PMDynaform] The integer values validation doesn't work properly with zero (0) values
+   FBI-1149	Certain HTML tags are being trimmed from the Output Document Templates
+   FBI-1148	[ZENDESK 3642] Dropdown gets instantly highlighted when accesing process from mobile
+   FBI-1146	[Web] saveForm() doesn't save data from multiple file uploader controls in grids 13 issues  Refresh
+
+5. Older Releases
+   3.1
+   3.0.4
+   3.0.2
+   3.0.1.8

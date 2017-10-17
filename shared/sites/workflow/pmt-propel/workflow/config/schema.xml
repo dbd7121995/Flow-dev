@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="workflow">
+  <table name="PMT_TIKI_SUPPLIER">
+    <vendor type="mysql">
+      <parameter name="Collation" value="utf8_general_ci"/>
+    </vendor>
+    <column name="TIKI_PARTNER_ID" type="INTEGER" size="11" required="true" primaryKey="true"/>
+    <column name="TIKI_CATEGORY_ID" type="INTEGER" size="11" required="true" primaryKey="true"/>
+    <column name="DEP_UID" type="VARCHAR" size="32" required="false"/>
+    <column name="GRP_UID" type="VARCHAR" size="32" required="false"/>
+  </table>
+  <table name="PMT_REQUEST_APPROVED">
+    <vendor type="mysql">
+      <parameter name="Collation" value="utf8_general_ci"/>
+    </vendor>
+    <column name="APP_UID" type="VARCHAR" size="32" required="true" primaryKey="true" index="true"/>
+    <column name="APP_NUMBER" type="INTEGER" size="11" required="true"/>
+    <column name="APP_STATUS" type="VARCHAR" size="10" required="true"/>
+    <column name="USER_CONFIRM" type="INTEGER" size="1" required="false"/>
+    <column name="FNA_APPROVE" type="INTEGER" size="1" required="false"/>
+    <column name="HEAD_APPROVE" type="INTEGER" size="1" required="false"/>
+    <column name="LEGAL_APPROVE" type="INTEGER" size="1" required="false"/>
+    <column name="LINE_MANAGER_APPROVE" type="VARCHAR" size="255" required="false"/>
+    <column name="PROCUREMENT_APPROVE" type="INTEGER" size="1" required="false"/>
+    <column name="REQUEST_APPROVED" type="INTEGER" size="1" required="false"/>
+    <column name="CREATEUSER" type="VARCHAR" size="255" required="false"/>
+    <column name="CREATEUSERNAME" type="VARCHAR" size="255" required="false"/>
+    <column name="CURRENTDEPARTMENT_LABEL" type="VARCHAR" size="32" required="false"/>
+    <column name="DEPARTMENT_LABEL" type="VARCHAR" size="32" required="false"/>
+    <column name="ERP_ID" type="FLOAT" size="11" required="false"/>
+    <column name="ERP_REASON" type="VARCHAR" size="255" required="false"/>
+    <column name="REQUEST_AMOUNT_TOTAL_LABEL" type="VARCHAR" size="32" required="false"/>
+    <column name="SUMMARY" type="VARCHAR" size="255" required="false"/>
+    <column name="SUMMARY_LABEL" type="VARCHAR" size="32" required="false"/>
+    <column name="USER_CONFIRM_NOTE" type="VARCHAR" size="255" required="false"/>
+    <index name="indexTable">
+      <index-column name="APP_UID"/>
+    </index>
+  </table>
+  <table name="PMT_THANHTOAN">
+    <vendor type="mysql">
+      <parameter name="Collation" value="utf8_general_ci"/>
+    </vendor>
+    <column name="APP_UID" type="VARCHAR" size="32" required="true" primaryKey="true" index="true"/>
+    <column name="APP_NUMBER" type="INTEGER" size="11" required="true"/>
+    <column name="APP_STATUS" type="VARCHAR" size="10" required="true"/>
+    <column name="ACCOUNTING_APPROVE" type="VARCHAR" size="255" required="false"/>
+    <column name="ACCOUNTING_APPROVE_LABEL" type="LONGVARCHAR" required="false"/>
+    <column name="ACCOUNTING_NOTE" type="VARCHAR" size="255" required="false"/>
+    <column name="ACCOUNTING_NOTE_LABEL" type="VARCHAR" size="255" required="false"/>
+    <column name="BUDGET_COST_ITEM" type="FLOAT" size="11" required="false"/>
+    <column name="BUDGET_DEPARTMENT" type="FLOAT" size="11" required="false"/>
+    <column name="CONTRACT_FILE" type="LONGVARCHAR" required="false"/>
+    <column name="CONTRACT_NAME" type="VARCHAR" size="255" required="false"/>
+    <column name="CONTRACT_NO" type="VARCHAR" size="255" required="false"/>
+    <column name="CONTRACT_TYPE" type="VARCHAR" size="255" required="false"/>
+    <column name="COST_ITEM_LV2" type="VARCHAR" size="255" required="false"/>
+    <column name="COST_ITEM_LV3" type="VARCHAR" size="255" required="false"/>
+    <column name="CREATEUSER" type="VARCHAR" size="255" required="false"/>
+    <column name="CURRENTDEPARTMENT" type="VARCHAR" size="255" required="false"/>
+    <column name="DATE_CLOSE" type="VARCHAR" size="255" required="false"/>
+    <column name="DATE_OPEN" type="VARCHAR" size="255" required="false"/>
+    <column name="DEPARTMENT" type="VARCHAR" size="255" required="false"/>
+    <column name="DESCRIPTION" type="VARCHAR" size="255" required="false"/>
+    <column name="ERP_ID" type="FLOAT" size="11" required="false"/>
+    <column name="ERP_REASON" type="VARCHAR" size="255" required="false"/>
+    <column name="FLOW_ID" type="VARCHAR" size="255" required="false"/>
+    <column name="FNAUSER" type="VARCHAR" size="255" required="false"/>
+    <column name="FNA_APPROVE" type="INTEGER" size="1" required="false"/>
+    <column name="FNA_NOTE" type="VARCHAR" size="255" required="false"/>
+    <column name="HEAD_APPROVE" type="INTEGER" size="1" required="false"/>
+    <column name="HEAD_APPROVE_LABEL" type="LONGVARCHAR" required="false"/>
+    <column name="HEAD_NOTE" type="VARCHAR" size="255" required="false"/>
+    <column name="HEAD_NOTE_LABEL" type="VARCHAR" size="255" required="false"/>
+    <column name="LEGALUSER" type="VARCHAR" size="255" required="false"/>
+    <column name="LINE_MANAGER" type="VARCHAR" size="255" required="false"/>
+    <column name="LINE_MANAGER_1" type="VARCHAR" size="255" required="false"/>
+    <column name="LINE_MANAGER_APPROVE" type="VARCHAR" size="255" required="false"/>
+    <column name="LINE_MANAGER_APPROVE_LABEL" type="LONGVARCHAR" required="false"/>
+    <column name="LINE_MANAGER_NOTE" type="VARCHAR" size="255" required="false"/>
+    <column name="LINE_MANAGER_NOTE_LABEL" type="VARCHAR" size="255" required="false"/>
+    <column name="PAYMENT_AMOUNT" type="VARCHAR" size="255" required="false"/>
+    <column name="PAYMENT_DATE" type="VARCHAR" size="255" required="false"/>
+    <column name="PAYMENT_SUMMARY" type="VARCHAR" size="255" required="false"/>
+    <column name="PAYMENT_SUPPLIER" type="VARCHAR" size="255" required="false"/>
+    <column name="REQUEST_AMOUNT" type="VARCHAR" size="255" required="false"/>
+    <column name="REQUEST_AMOUNT_TOTAL" type="VARCHAR" size="255" required="false"/>
+    <column name="REQUEST_APPROVED" type="INTEGER" size="1" required="false"/>
+    <column name="REQUEST_CONTRACT" type="VARCHAR" size="255" required="false"/>
+    <column name="REQUEST_ID" type="VARCHAR" size="255" required="false"/>
+    <column name="REQUEST_TYPE" type="VARCHAR" size="255" required="false"/>
+    <column name="SALEUSER" type="VARCHAR" size="255" required="false"/>
+    <column name="SEARCH_FLOW_ID_BY_NAME" type="VARCHAR" size="255" required="false"/>
+    <column name="SUMMARY" type="VARCHAR" size="255" required="false"/>
+    <column name="SUPPLIER_CODE" type="VARCHAR" size="255" required="false"/>
+    <column name="SUPPLIER_NAME" type="VARCHAR" size="255" required="false"/>
+    <column name="USER_CONFIRM" type="INTEGER" size="1" required="false"/>
+    <column name="SUPPLIER_PAYMENT_INFO" type="VARCHAR" size="255" required="false"/>
+    <column name="USER_CONFIRM_NOTE" type="VARCHAR" size="255" required="false"/>
+    <column name="USER_NOTE" type="VARCHAR" size="255" required="false"/>
+    <index name="indexTable">
+      <index-column name="APP_UID"/>
+    </index>
+  </table>
+  <table name="PMT_TEST" idMethod="native">
+    <vendor type="mysql">
+      <parameter name="Collation" value="utf8_general_ci"/>
+    </vendor>
+    <column name="ID" type="BIGINT" required="true" primaryKey="true" autoIncrement="true"/>
+  </table>
+</database>
